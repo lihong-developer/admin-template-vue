@@ -3,7 +3,7 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 
-import './plugins/element.js'
+import './plugins/element-ui.js'
 
 Vue.config.productionTip = false
 
