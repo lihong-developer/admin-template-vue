@@ -18,6 +18,7 @@ module.exports = {
     'vue/html-closing-bracket-newline': 'off',
     "vue/html-indent": ["warn", 4],
     "vue/html-self-closing": 'off',
-    "vue/max-attributes-per-line": 'off'
+    "vue/max-attributes-per-line": 'off',
+    "vue/singleline-html-element-content-newline": 'off'
   }
 }

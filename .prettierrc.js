@@ -5,6 +5,6 @@ module.exports = {
     printWidth: 80,
     htmlWhitespaceSensitivity: "ignore",
     semi: false,
-    jsxBracketSameLine: 'true',
+    jsxBracketSameLine: true,
     jsxSingleQuote: true,
 }
