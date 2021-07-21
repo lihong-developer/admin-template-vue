@@ -92,8 +92,7 @@
                 <a
                     href="https://router.vuejs.org"
                     target="_blank"
-                    rel="noopener"
-                >
+                    rel="noopener">
                     vue-router
                 </a>
             </li>
@@ -106,8 +105,7 @@
                 <a
                     href="https://github.com/vuejs/vue-devtools#vue-devtools"
                     target="_blank"
-                    rel="noopener"
-                >
+                    rel="noopener">
                     vue-devtools
                 </a>
             </li>
@@ -134,7 +132,8 @@
                     style="width: 100px; height: 100px"
                     :src="item"
                     @click="clickImg(resData.thumbnails[key])"
-                ></el-image>
+                >
+                </el-image>
             </li>
         </ul>
     </div>
