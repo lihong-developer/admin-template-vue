@@ -15,6 +15,7 @@ module.exports = {
     'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
     indent: ["warn", 4],
+    'eol-last': 'off',
     'vue/html-closing-bracket-newline': 'off',
     "vue/html-indent": ["warn", 4],
     "vue/html-self-closing": 'off',
