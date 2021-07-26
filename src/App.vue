@@ -5,8 +5,9 @@
 </template>
 
 <style scoped>
-#app {
+/* #app {
     min-width: 1000px;
-    min-height: 100vh;
-}
+    height: 100vh;
+    background-color: #f2f2f2;
+} */
 </style>

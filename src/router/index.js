@@ -1,7 +1,7 @@
+/* eslint-disable no-unused-vars */
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import demoModule from './demoModule'
-console.log(demoModule)
 // import Home from '../views/Home.vue'
 
 Vue.use(VueRouter)
@@ -12,7 +12,14 @@ const routes = [
         name: 'Login',
         component: () => import('@/views/login/login')
     },
-    ...demoModule
+    {
+        path: '/',
+        name: 'Main',
+        component: () => import('@/views/modules'),
+        children: [
+            ...demoModule
+        ]
+    }
 
     // {
     //     path: '/',
